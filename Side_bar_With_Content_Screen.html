@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Screen</title>
+    <style>
+        h3{color: blueviolet;}
+        h2{color: crimson;}
+        nav{height: 400px;width: 150px;overflow-x: scroll;overflow-y: scroll;border: solid;position:relative;}
+        a{text-decoration: none;}
+        header{position:sticky ;top: 0;height: 100vh}
+        div{border: ;}
+        li{text-indent: 0px;}
+        strong{color: rgb(82, 5, 5);}
+        img{float:right;}
+        table,td,th{border: solid ;border-collapse: collapse;padding: 5px;font-size:small;}
+        main{text-align: justify;text-indent: 20px;padding-left: 5px;padding-right: 5px;}
+        a:visited{color: green;}
+        body{background-image: url(/Images/BACKGROUND_for_website.jpg) no-repeat ;display: flex;}
+    </style>
+</head>
+<body> <header>
+    <nav >
+        <div><h2>JavaScript</h2>
+            <hr><a href="#Introduction">Introduction to JavaScript</a><br><hr>
+            <a href="#History">History of JavaScript</a><br><hr>
+            <a href="#Features">Features Of  JavaScript </a><br><hr>
+            <a href="#Applcation">Applications of JavaScript</a><br><hr>
+            <a href="#Limitation">Limitations of JavaScript</a><br><hr>
+            <a href="#Version">JavaScript Versions</a><br><hr>
+            <a href="#Statement">JavaScript Statements</a><br><hr>
+            <a href="#Syntax">JavaScript Syntax</a><br><hr>
+            <a href="#Comment">JavaScript Comments</a><br><hr>
+            
+        
+        </div>
+        
+      </nav>
+    </header>
+     <main>
+           
+         <h3 id="Introduction">Introduction to JavaScript </h3>
+        <img src="/Images/JavaScript-Introduction.jpg" height="150px" width="150px" alt="">
+    
+        <p>What is JavaScript ? <br> JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. It is also known as the <u style="color: brown;"><em style="color: brown;"> scripting language</em> </u> for webpages. It is well-known for the development of web pages, and many non-browser environments also use it.
+    </p>
+    <p>JavaScript is a weakly typed language (dynamically typed). JavaScript can be used for Client-side developments as well as Server-side developments. JavaScript is both an imperative and declarative type of language. JavaScript contains a standard library of objects, like Array, Date, and Math, and a core set of language elements like operators, control structures, and statements. 
+    </p>
+    <ul> <li><strong> Client-side:</strong> It supplies objects to control a browser and its Document Object Model (DOM). Like if client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation. Useful libraries for the client side are AngularJS, ReactJS, VueJS, and so many others.</li><br>
+    <li> <strong> Server-side:</strong> It supplies objects relevant to running JavaScript on a server. For if the server-side extensions allow an application to communicate with a database, and provide continuity of information from one invocation to another of the application, or perform file manipulations on a server. The useful framework which is the most famous these days is node.js.
+    </li><br>
+    <li><strong> Imperative language :</strong> In this type of language we are mostly concerned about how it is to be done. It simply controls the flow of computation. The procedural programming approach, object, oriented approach comes under this as async await we are thinking about what is to be done further after the async call.
+    </li><br>
+    <li><strong> Declarative programming :</strong> In this type of language we are concerned about how it is to be done, basically here logical computation requires. Her main goal is to describe the desired result without direct dictation on how to get it as the arrow function does.
+    </li></ul><br>
+    
+    <h3 id="History">History of JavaScript</h3>
+    <p>It was created in 1995 by Brendan Eich while he was an engineer at Netscape. It was originally going to be named LiveScript but was renamed. Unlike most programming languages, JavaScript language has no concept of input or output. It is designed to run as a scripting language in a host environment, and it is up to the host environment to provide mechanisms for communicating with the outside world. The most common host environment is the browser.     </p>
+    
+    
+    <h3 id="Features" >Features of JavaScript    </h3>
+    <p>According to a recent survey conducted by Stack Overflow, JavaScript is the most popular language on earth. With advances in browser technology and JavaScript having moved into the server with Node.js and other frameworks, JavaScript is capable of so much more. Here are a few things that we can do with JavaScript: 
+        
+       <ul><li>JavaScript was created in the first place for DOM manipulation. Earlier websites were mostly static, after JS was created dynamic Web sites were made.</li>
+       <li>Functions in JS are objects. They may have properties and methods just like other objects. They can be passed as arguments in other functions.</li>
+       <li>Can handle date and time.</li>
+        <li>Performs Form Validation although the forms are created using HTML.</li>
+       <li>No compiler is needed.</li>
+    </ul></p>
+    
+    <h3 id="Applcation" >Applications of JavaScript</h3>
+    <ul><li><strong>Web Development:</strong>  Adding interactivity and behavior to static sites JavaScript was invented to do this in 1995. By using AngularJS that can be achieved so easily.</li><br>
+
+<li> <strong> Web Applications:</strong>With technology, browsers have improved to the extent that a language was required to create robust web applications. When we explore a map in Google Maps then we only need to click and drag the mouse. All detailed view is just a click away, and this is possible only because of JavaScript. It uses <u> Application Programming Interfaces(APIs)</u> that provide extra power to the code. The Electron and React are helpful in this department.</li><br>
+
+<li> <strong> Server Applications:</strong> With the help of Node.js, JavaScript made its way from client to server and Node.js is the most powerful on the server side.</li>
+    <li><strong>Games:</strong>Not only in websites, but JavaScript also helps in creating games for leisure. The combination of JavaScript and HTML 5 makes JavaScript popular in game development as well. It provides the EaseJS library which provides solutions for working with rich graphics.</li><br>
+
+<li><strong>Smartwatches:</strong> JavaScript is being used in all possible devices and applications. It provides a library PebbleJS which is used in smartwatch applications. This framework works for applications that require the Internet for their functioning.</li><br>
+<li><strong>Art:</strong> Artists and designers can create whatever they want using JavaScript to draw on HTML 5 canvas, and make the sound more effective also can be used p5.js library.</li><br>
+
+<li><strong>Machine Learning:</strong> This JavaScript ml5.js library can be used in web development by using machine learning.</li><br>
+
+<li><strong>Mobile Applications:</strong> JavaScript can also be used to build an application for non-web contexts. The features and uses of JavaScript make it a powerful tool for creating mobile applications. This is a Framework for building web and mobile apps using JavaScript. Using React Native, we can build mobile applications for different operating systems. We do not require to write code for different systems. Write once use it anywhere!</li></ul><br>
+
+<h3 id="Limitation">Limitations of JavaScript</h3>
+<ul> <li><strong> Security risks:</strong> JavaScript can be used to fetch data using AJAX or by manipulating tags that load data such as img, object, script. These attacks are called cross-site script attacks. They inject JS that is not part of the site into the visitor’s browser thus fetching the details. </li><br>
+<li><strong>Performance:</strong> JavaScript does not provide the same level of performance as offered by many traditional languages as a complex program written in JavaScript would be comparatively slow. But as JavaScript is used to perform simple tasks in a browser, so performance is not considered a big restriction in its use.</li><br>
+<li> <strong>Complexity:</strong> To master a scripting language, programmers must have a thorough knowledge of all the programming concepts, core language objects, and client and server-side objects otherwise it would be difficult for them to write advanced scripts using JavaScript.</li><br>
+<li> <strong>Weak error handling and type checking facilities: </strong>It is a weakly typed language as there is no need to specify the data type of the variable. So wrong type checking is not performed by compile.</li></ul><br>
+
+<h3 id="Version">JavaScript Versions</h3>
+<img src="/Images/JavaScript-Versions.png" height="150px" width="150px" alt="">
+<p>JavaScript is a modern scripting language that is popular worldwide among developers. It is a lightweight, interpreted compiled language that can be used on both client-side as well as the server side. It was invented in the <u style="color: indianred;"> year 1995 by Brendan Eich</u>. Over the years the language has improved a lot and  a lot of new features have been added which make the coding process even easier. This language became an ECMA standard in the year 1997.
+
+</p>
+<p>We will discuss the various versions, their features as well as the release date in the table below.
+
+</p>
+<table><tr><th>Version</th><th>Name</th><th>Release_Year</th><th>Features</th></tr>
+<tr><td>ES1	</td><td>ECMAScript 1</td><td>1997</td><td>Initial Release
+</td></tr>
+
+<tr><td>ES2	</td><td>ECMAScript 2</td><td>1998</td><td>Minor Editorial Changes
+</td></tr>
+
+<tr><td>ES3	</td><td>ECMAScript 3</td><td>1999</td><td>Added:
+<ul><li>Regular Expression</li> <li>try/catch</li><li>Exception Handling
+</li><li>switch case and do-while</li></ul>
+</td></tr>
+
+<tr><td>ES4	</td><td>ECMAScript 4</td><td>2003</td><td>Abandoned due to conflicts
+</td></tr>
+
+<tr><td>ES5	</td><td>ECMAScript 5</td><td>2009</td><td>Added:
+    <ul><li>JavaScript “strict mode”
+    </li><li>JSON support</li><li>JS getters and setters
+    </li></ul>
+
+</td></tr>
+
+<tr><td>ES6</td><td>ECMAScript 2015	</td><td>2015</td><td>Added:
+<ul><li>let and const</li>
+<li>Class declaration</li>
+<li>import and export</li>
+<li>for..of loop</li>
+<li>Arrow functions</li>
+</ul></td></tr>
+
+<tr><td>ES7</td><td>ECMAScript 2016	</td><td>2016</td><td>Added:
+<ul>
+<li>Block scope for variable</li>
+<li>async/await</li>
+<li>Array.includes function</li>
+<li>Exponentiation Operator</li>
+</ul></td></tr>
+
+<tr><td>ES8	</td><td>ECMAScript 2017</td><td>2017</td><td>Added:
+<ul>
+<li>Object.values</li>
+<li>Object.entries</li>
+<li>Object.getOwnPropertiesDescriptors</li>
+</ul></td></tr>
+
+<tr><td>ES9	</td><td>ECMAScript 2018</td><td>2018</td><td>Added:
+<ul>
+<li>spread operator</li>
+<li>rest parameters</li>
+</ul></td></tr>
+
+<tr><td>ES10</td><td>ECMAScript 2019</td><td>2019</td><td>Added:
+<ul>
+    <li>Array.flat()   </li>
+    <li>Array.flatMap()   </li>
+    <li>Array.sort is now stable   </li>
+</ul>
+</td></tr>
+
+<tr><td>ES11	</td><td>ECMAScript 2020	</td><td>2020</td><td>Added:
+<ul>
+    <li>BigInt primitive type    </li>
+    <li>nullish coalescing operator    </li>
+</ul>
+</td></tr>
+
+<tr><td>ES12</td><td>ECMAScript 2021</td><td>2021</td><td>Added:
+<ul>
+    <li>String.replaceAll() Method    </li>
+    <li>Promise.any() Method    </li>
+</ul>
+</td></tr>
+
+<tr><td>ES13</td><td>ECMAScript 2022</td><td>2022</td><td>Added:
+<ul>
+    <li>Top-level await    </li>
+    <li>New class elements    </li>
+    <li>Static block inside classes    </li>
+</ul>
+</td></tr>
+
+</table>
+
+<h3 id="Statement">JavaScript Statements</h3>
+<p >
+    The programming instructions written in a program in a programming language are known as statements. The order of execution of Statements is the same as they are written.
+</p>
+<ol>
+    <li><strong>Semicolons:</strong></li>
+    <ul type="square">
+        <li>Semicolons separate JavaScript statements.</li>
+        <li>A semicolon marks the end of a statement in javascript. </li>
+    </ul><br>
+    <li><strong> Code Blocks: </strong>JavaScript statements can be grouped together inside curly brackets. Such groups are known as code blocks. The purpose of grouping is to define statements to be executed together. 
+</li><br>
+<li><strong> White Space:</strong> Javascript ignores multiple white spaces.</li><br>
+<li><strong> Line Length and Line Breaks: </strong>Javascript code’s preferred line length by most programmers is up to 80 characters. The best place to break a code line in Javascript, if it doesn’t fit, is after an operator.
+
+
+</li><br>
+<li><strong> Keywords:</strong> Keywords are reserved words and cannot be used as a variable name. A Javascript keyword tells about what kind of operation it will perform.</li><br>
+</ol>
+
+<p><strong> Some commonly used keywords are:</strong></p>
+<ul>
+    <li><strong> break and continue:</strong> break keyword is used to terminate a loop and continue is used to skip a particular iteration in a loop and move to the next iteration.
+    </li><br>
+    <li><strong>do…. while:</strong>  In this, the statements written within the do block are executed till the condition in while is true.</li><br>
+    
+    <li><strong>for:</strong>  It helps in executing a block of statements till the condition is true.
+    </li><br>
+    <li><strong> function:</strong> This keyword is used to declare a function.
+    </li>
+    <li><strong> return:</strong> This keyword is used to exit a function.
+    </li>
+
+</ul>
+
+<h3 id="Syntax">JavaScript Syntax</h3>
+<p>JavaScript Syntax is used to define the set of rules to construct a JavaScript code. <br><br>
+    Syntax: <br><br>
+    <b style="color: red;"> console.log("Basic Print method in JavaScript");</b><br><br>
+
+    JavaScript syntax refers to the set of rules that determines how JavaScript programs are constructed: <br><br>
+// Variable declaration  <br>
+let c, d, e; <br> <br>
+
+// Assign value to the variable <br>
+c = 5;  <br> <br>
+
+// Computer value of variables <br>
+d = c; <br>
+e = c/d; <br> <br>
+</p>
+
+<h3 id="Comment">JavaScript Comments</h3>
+<p>JavaScript comments are used to explain the code to make it more readable. It can be used to prevent the execution of a section of code if necessary. JavaScript comments are ignored while the compiler executes the code. 
+</p>
+<h4>Single Line Comments</h4>
+<p>In Javascript, single-line comments start with //. Any code written after // will be ignored by Javascript.
+</p>
+<h4>Multi-line Comments</h4>
+<p>In Javascript, multi-line comments start with /* and end with */. Any text or code written between /* and */ will be ignored by JavaScript at the time of execution.
+</p>
+</main>
+</body>
+</html>
